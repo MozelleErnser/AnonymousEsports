@@ -1,0 +1,25 @@
+{
+  "name": "anonymous-esports-platform",
+  "version": "1.0.0",
+  "description": "Anonymous Esports Competition Platform using Zama FHE protocol",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server . -p 3000 -c-1",
+    "dev": "npx http-server . -p 3000 -c-1 --cors",
+    "build": "echo 'Static build complete'",
+    "deploy": "vercel --prod"
+  },
+  "keywords": [
+    "esports",
+    "blockchain",
+    "fhe",
+    "zama",
+    "anonymous",
+    "voting",
+    "web3"
+  ],
+  "author": "Anonymous Esports Platform",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}
